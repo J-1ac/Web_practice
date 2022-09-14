@@ -10,11 +10,75 @@
          <legend>Photo Details</legend>
          <table>
             <tr>
-               <td><label>Title</label><br>
-                  <input type="text" style="width:1000px"/>
-                  <label>Description</label><br><textarea></textarea>
+               <td colspan="2"><label>Title</label><br>
+                  <input type="text" style="width:100%"/><br>
+                  <label>Description</label><br><textarea rows="7" cols="30"></textarea>
+                  
                </td>
-               
+            </tr>
+            <tr>
+               <td>
+                  <label>Continent</label><br>
+                  <select>
+                     <option selected>Choose continent</option>
+                     <option>Africa</option>
+                     <option>Asia</option>
+                     <option>Europe</option>
+                     <option>North America</option>
+                     <option>South America</option>
+                  </select><br>
+                  <label>Country</label><br>
+                  <select>
+                     <option selected>Choose country</option>
+                     <option>Canada</option>
+                     <option>Mexico</option>
+                     <option>United States</option>
+                  </select><br>
+                  <label>City</label><br>
+                  <input type="text" list="cities"/>
+                  <datalist id="cities">
+                     <option>Calgary</option>
+                     <option>Montreal</option>
+                     <option>Toronto</option>
+                     <option>Vancouver</option>
+                  </datalist>
+               </td>
+               <td>
+                  <label>Copyright?</label><br>
+                  <input type="radio" name="copyright" value="1">All rights reserved<br>
+                  <input type="radio" name="copyright" value="2"checked>Creative Commons<br>
+                  <label>Creative Commons Types</label><br>
+                  <input type="checkbox" name="type" value="1">Attribution<br>
+                  <input type="checkbox" name="type" value="2">Noncommercial<br>
+                  <input type="checkbox" name="type" value="3">No Derivative Works<br>
+                  <input type="checkbox" name="type" value="4">Share Alike
+               </td>           
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <label>I accept the software license</label>
+                  <input type="checkbox" name="accept">
+                  <tr>
+            </tr>   
+               </td>
+               <td>
+                  <label>Rate this photo:</label><br>
+                  <input type="number" min="1" max="5" name="rate"><br>
+                  <label>Color Collection:</label><br>
+                  <input type="color" name="color">
+               </td>
+               <td>
+                  <label>Date Taken:</label><br>
+                  <input type="date"><br>
+                  <label>Time Taken:</label><br>
+                  <input type="time">
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="Clear Form">
+               </td>
             </tr>
          </table>
       </fieldset>
