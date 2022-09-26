@@ -69,16 +69,17 @@ nav {
 }
 
 nav ul li {
-   list-style: inline;
-   display: inline-flex;
+   list-style-type: none;
+   display: inline;
+
 }
 
 nav {
-   padding: 1px;
+   padding: 0.1em;
 }
 
 nav a {
-   padding: 10px;
+   padding: 1px;
 }
 
 /* article styling */
