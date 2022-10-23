@@ -1,7 +1,9 @@
 function highlight() {
-	// Write source code
+	var mycontent=document.getElementById("content");
+	mycontent.style.backgroundColor = "yellow";
 }
 
 function off() {
-	// Write source code
+	var mycontent=document.getElementById("content");
+	mycontent.style.backgroundColor = "white";
 }

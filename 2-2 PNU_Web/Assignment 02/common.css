@@ -30,12 +30,11 @@ body {
 fieldset {
     margin: 5em 5em 5em 5em; /* don't change the margin */
     background-color: rgb(244, 250, 252);
-    
 }
 
 table {
     width: 100%;
-    padding: 5em
+    padding: 1em
 }
 
 table tbody td{
@@ -55,7 +54,7 @@ form p {
 
 .box {
     border: 0.1em solid skyblue;
-    margin: 0.2em 0em 0.2em 0em;
+    margin: 0.2em 0em;
     padding: 0.3em;
 }
 

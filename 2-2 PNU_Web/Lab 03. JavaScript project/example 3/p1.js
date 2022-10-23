@@ -1,10 +1,19 @@
 function isBlank(inputField) {
     if (inputField.type == "checkbox") {
-        //task
+        if(inputField.checked){
+            makeRed(inputField);
+        }else{
+            makeClean(inputField);
+        }
     }
-
+    
     if (inputField.type == "text") {
-        //task
+        if(inputField.value==""){
+            makeRed(inputField);
+            console.log("text is blanked")
+        }else{
+            makeClean(inputField);
+        }
     }
 }
 
