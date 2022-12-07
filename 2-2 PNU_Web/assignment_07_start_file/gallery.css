@@ -1,0 +1,53 @@
+
+.galleryTitle{
+	background-color:#FFFFFF;
+	position:float; 
+	position:relative;
+	top:230px;
+left:25px;
+		width:100%;
+	padding:1em;
+	border:solid grey 2px;
+}
+.gallery{
+	width:	56em;
+	height: 19em;
+	border: solid black 1px;
+	background-color:#000000;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.galleryPic{
+	width:	 14em;
+	height: 18em;
+	top:0;
+	border: none;;
+	margin-right:1em;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	z-index:10;
+	display:inline-block;
+}
+
+#leftGallery{
+	float:left;
+	height:19em;
+	width:5em;
+	background-color:#FFFFFF;
+	opacity:0.3;
+	background-image:url('leftArrow.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#rightGallery{
+	float:right;
+	background-color:#FFFFFF;
+	height:19em;
+	width:5em;
+	opacity:0.3;
+	background-image:url('rightArrow.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
